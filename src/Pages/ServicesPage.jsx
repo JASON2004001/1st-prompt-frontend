@@ -2,9 +2,10 @@
 import React from "react";
 
 
-import residentialImg from "../asset/scantuaries.png";
+import residentialImg from "../asset/sanctuaries.png";
+import commercialImg from "../asset/atmospheres.png";
 import interiorImg from "../asset/Sculting.png";
-import commercialImg from "../asset/Atmospheres.png";
+
 
 const ServicesPage = () => {
   return (
