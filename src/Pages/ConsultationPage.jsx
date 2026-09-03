@@ -1,6 +1,6 @@
 // Pages/ConsultationPage.jsx
 import React from "react";
-import consultationImg from "../asset/consultation.png"; 
+import consultationImg from "../assetset/consultation.png"; 
 // ✅ Make sure your image is inside /src/asset folder
 
 const ConsultationPage = () => {

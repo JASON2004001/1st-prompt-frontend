@@ -11,6 +11,11 @@ import InquiryPage from "./Pages/InquiryPage";
 import ConsultationPage from "./Pages/ConsultationPage"; 
 import PhilosophyPage from "./Pages/PhilosophyPage";
 
+// NEW imports
+import InteriorPage from "./Pages/InteriorPage";
+import ResidentialPage from "./Pages/ResidentialPage";
+import CommercialPage from "./Pages/CommercialPage";
+
 const App = () => {
   return (
     <div className="bg-white text-black min-h-screen flex flex-col">
@@ -31,7 +36,12 @@ const App = () => {
           <Route path="/consultation" element={<ConsultationPage />} />
 
           {/* Philosophy Page */}
-           <Route path="/philosophy" element={<PhilosophyPage />} /> 
+          <Route path="/philosophy" element={<PhilosophyPage />} /> 
+
+          {/* NEW Pages */}
+          <Route path="/interior" element={<InteriorPage />} />
+          <Route path="/residential" element={<ResidentialPage />} />
+          <Route path="/commercial" element={<CommercialPage />} />
         </Routes>
       </main>
       <Footer />

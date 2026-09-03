@@ -1,9 +1,9 @@
 // Pages/PhilosophyPage.jsx
 import React from "react";
 import { Link } from "react-router-dom";
-import philosophyHero from "../asset/philosophy1.png";
-import materialImg from "../asset/philosophy2.png";
-import timelessImg from "../asset/philosophy3.png";
+import philosophyHero from "../assetset/philosophy1.png";
+import materialImg from "../assetset/philosophy2.png";
+import timelessImg from "../assetset/philosophy3.png";
 
 const PhilosophyPage = () => {
   return (

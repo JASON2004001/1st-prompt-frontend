@@ -2,9 +2,9 @@
 import React from "react";
 
 
-import residentialImg from "../asset/sanctuaries.png";   
-import commercialImg from "../asset/atmospheres.png";    
-import interiorImg from "../asset/sculpting.png";        
+import residentialImg from "../assetset/sanctuaries.png";   
+import commercialImg from "../assetset/atmospheres.png";    
+import interiorImg from "../assetset/sculpting.png";        
 
 const ServicesPage = () => {
   return (

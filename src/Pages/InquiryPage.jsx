@@ -1,6 +1,6 @@
 import React from "react";
 
-import apexImg from "../asset/Apex Tower.png";
+import apexImg from "../assetset/Apex Tower.png";
 
 const InquiryPage = () => {
     return (
